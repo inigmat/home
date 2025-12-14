@@ -38,7 +38,7 @@ The Equilibrium Project:
 * **Live Demo (Streamlit)**: https://equilibrium.streamlit.app/
 * **Source Code (GitHub)**: https://github.com/inigmat/equilibrium
 
-In a series of previous posts, I discussed two related but initially independent topics:
+In the previous posts, I discussed two related but initially independent topics:
 
 * parsing **Primavera P6 (XER)** files using the Python library `xerparser`
 * building schedule optimization models using **CPLEX**
