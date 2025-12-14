@@ -159,6 +159,7 @@ The project is currently a demo/test build, with several intentional simplificat
 * a continuous **7-day working calendar** is used
 * weekends, holidays, shifts in Primavera calendars are ignored
 * **activity execution status is not considered** — started and completed activities are treated the same as not-yet-started ones
+* xerparser library tested on .xer files exported as versions 15.2 through 19.12
 
 Even with these limitations, the tool is already effective for identifying bottlenecks in resource logic.
 
