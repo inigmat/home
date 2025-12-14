@@ -101,6 +101,10 @@ The current version includes two scenarios that reflect different management per
 
 
 ### Scenario 1. Automatic Resource Assignment
+<center>
+  <img src="/home/docs/assets/2024-02-24-XER-reading/scneario1.png" 
+  alt="Scenario 1">
+</center>
 
 **Problem statement**
 
@@ -117,8 +121,11 @@ The current version includes two scenarios that reflect different management per
 
 This scenario is useful for estimating the **theoretical minimum project duration** given a fixed number of crews.
 
-
 ### Scenario 2. Optimization Within Existing Resource Groups (Sub-Crews)
+<center>
+  <img src="/home/docs/assets/2024-02-24-XER-reading/scneario2.png" 
+  alt="Scenario 2">
+</center>
 
 This scenario is closer to real Primavera workflows.
 
