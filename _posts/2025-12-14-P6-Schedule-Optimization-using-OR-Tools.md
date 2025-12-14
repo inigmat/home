@@ -14,7 +14,7 @@ date: 2025-12-14
 </style>
 
 <div class="trimmed-cover">
-  <img src="docs/assets/2025-12-14-P6-OR-Tools/Portrait_of_I.V.Klyun_(Klyunkov).jpg" alt="Portrait of I.V.Klyun (Klyunkov)">
+  <img src="home/assets/2025-12-14-P6-OR-Tools/Portrait_of_I.V.Klyun_(Klyunkov).jpg" alt="Portrait of I.V.Klyun (Klyunkov)">
 </div>
 
 <p align="center">
