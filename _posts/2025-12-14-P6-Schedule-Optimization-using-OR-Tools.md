@@ -5,18 +5,20 @@ date: 2025-12-14
 
 <style>
   .trimmed-cover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
     width: 100%;
-    height: 384px;
+    /* Сохраняем пропорции оригинальной картинки */
+    padding-top: calc((770 / 440) * 100%); /* 175% */
     overflow: hidden;
   }
   
   .trimmed-cover img {
-    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    object-fit: cover;
     object-position: center center;
   }
 </style>
