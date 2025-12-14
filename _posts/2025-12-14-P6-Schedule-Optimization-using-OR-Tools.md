@@ -151,7 +151,6 @@ The model can answer questions such as:
 * where do conflicts between precedence logic and resource capacity arise?
 * does increasing resources help, or is the schedule precedence-bound?
 
----
 
 ## Current Limitations
 
@@ -166,11 +165,10 @@ Even with these limitations, the tool is already effective for identifying bottl
 
 ## Conclusions
 
-The combination of **xerparser + OR-Tools** has proven to be a viable alternative to commercial solvers for analyzing and optimizing Primavera P6 schedules:
+The combination of **python**, **xerparser**, and **OR-Tools** provides a powerful and practical framework for P6 schedule analysis and optimization:
 
-* Community Edition limitations are avoided
-* flexible optimization scenarios become possible
-* real XER files can be used directly
-* the approach is well suited for R&D, pre-project analysis, and hypothesis testing
+* **Reads data directly from the XER file**, bypassing manual transformation steps.
+* **Leverages the capabilities of OR-Tools** for efficient discrete optimization.
+* **Allows flexible optimization scenarios** to be tested directly on real P6 project data.
 
 Future development directions: support for P6 calendars, richer resource models, activity status handling.
