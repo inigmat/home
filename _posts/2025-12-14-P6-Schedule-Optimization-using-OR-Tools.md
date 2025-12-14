@@ -35,8 +35,8 @@ date: 2025-12-14
 
 The Equilibrium Project:
 
-* **Live Demo**: [Streamlit web-app] (https://equilibrium.streamlit.app/)
-* **Source Code**: [GitHub] (https://github.com/inigmat/equilibrium)
+* **Live Demo**: [Streamlit web-app](https://equilibrium.streamlit.app/)
+* **Source Code**: [GitHub](https://github.com/inigmat/equilibrium)
 
 In the previous posts, I discussed two related but initially independent topics:
 
