@@ -5,12 +5,20 @@ date: 2025-12-14
 
 <style>
   .trimmed-cover {
-  object-fit: cover;
-  width: 100%;
-  height: 384px;
-  overflow: hidden;
-  object-position: center center;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 384px;
+    overflow: hidden;
+  }
+  
+  .trimmed-cover img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center center;
+  }
 </style>
 
 <div class="trimmed-cover">
