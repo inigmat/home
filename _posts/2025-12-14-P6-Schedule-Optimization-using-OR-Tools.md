@@ -9,7 +9,7 @@ date: 2025-12-14
   width: 100%;
   height: 384px;
   overflow: hidden;
-  object-position: center 40%;
+  object-position: center center;
 }
 </style>
 
