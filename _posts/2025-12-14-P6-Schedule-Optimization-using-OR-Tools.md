@@ -5,6 +5,10 @@ date: 2025-12-14
 
 ![Portrait of I.V.Klyun (Klyunkov)](https://upload.wikimedia.org/wikipedia/commons/a/a9/Portrait_of_I.V.Klyun_%28Klyunkov%29.jpg)
 
+<p align="center">
+  <em>Kazimir Malevich. "Portrait of Ivan Vasilyevich Klyun (Improved portrait of Klyun (Builder)"</em>
+</p>
+
 # Resource Optimization: From CPLEX to OR-Tools
 
 In a series of previous posts, I discussed two related but initially independent topics:
