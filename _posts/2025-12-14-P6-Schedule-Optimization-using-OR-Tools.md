@@ -3,7 +3,7 @@ title:  P6 Schedule Optimization using OR-Tools
 date: 2025-12-14
 ---
 
-![Portrait of I.V.Klyun (Klyunkov)](https://upload.wikimedia.org/wikipedia/commons/a/a9/Portrait_of_I.V.Klyun_%28Klyunkov%29.jpg)
+<p align="center">![Portrait of I.V.Klyun (Klyunkov)](https://upload.wikimedia.org/wikipedia/commons/a/a9/Portrait_of_I.V.Klyun_%28Klyunkov%29.jpg)</p>
 
 <p align="center">
   <em>Kazimir Malevich. "Portrait of Ivan Vasilyevich Klyun (Improved portrait of Klyun (Builder)"</em>
@@ -20,14 +20,12 @@ The natural next step was to combine these approaches into a single applied proj
 
 In this article, I explain why this transition was necessary, how the optimization model is structured, and which scenarios have been implemented.
 
----
 
 ## The Problem: Limitations of CPLEX Community Edition
 
 CPLEX works very well for educational and small-scale scheduling problems. However, when moving to bigger XER files exported from Primavera, the constraints of the Community Edition (1000 variables and 1000 constraints) become noticeable.
 As long as access to the commercial version is not available for me, this naturally led me to look for an alternative solver better suited for working with real project data.
 
----
 
 ## Why OR-Tools
 
@@ -42,7 +40,6 @@ As an alternative, **Google OR-Tools (CP-SAT)** was selected:
   * resource capacity constraints
 * good scalability on scheduling benchmarks
 
----
 
 ## Overall Architecture
 
@@ -70,13 +67,11 @@ Technology stack:
 
 This allows P6 schedules to be passed directly into the solver without manual intermediate transformations.
 
----
 
 ## Implemented Optimization Scenarios
 
 The current version includes two scenarios that reflect different management perspectives.
 
----
 
 ### Scenario 1. Automatic Resource Assignment
 
@@ -95,7 +90,6 @@ The current version includes two scenarios that reflect different management per
 
 This scenario is useful for estimating the **theoretical minimum project duration** given a fixed number of crews.
 
----
 
 ### Scenario 2. Optimization Within Existing Resource Groups (Sub-Crews)
 
@@ -135,7 +129,6 @@ The project is currently a demo/test build, with several intentional simplificat
 
 Even with these limitations, the tool is already effective for identifying bottlenecks in resource logic.
 
----
 
 ## Conclusions
 
