@@ -5,21 +5,21 @@ date: 2025-12-14
 
 <style>
   .trimmed-cover {
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    /* Сохраняем пропорции оригинальной картинки */
-    padding-top: calc((770 / 440) * 100%); /* 175% */
+    height: 384px;
     overflow: hidden;
   }
   
   .trimmed-cover img {
-    position: absolute;
-    top: 0;
-    left: 0;
+    object-fit: cover;
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center center;
+    /* Смещаем на 0% по вертикали (самый верх), 
+       или можно 10-20% для немного смещения вниз */
+    object-position: center 0%;
   }
 </style>
 
