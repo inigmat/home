@@ -3,7 +3,19 @@ title:  P6 Schedule Optimization using OR-Tools
 date: 2025-12-14
 ---
 
-<p align="center">![Portrait of I.V.Klyun (Klyunkov)](https://upload.wikimedia.org/wikipedia/commons/a/a9/Portrait_of_I.V.Klyun_%28Klyunkov%29.jpg)</p>
+<style>
+  .trimmed-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 384px;
+  overflow: hidden;
+  object-position: center 40%;
+}
+</style>
+
+<div class="trimmed-cover">
+  <img src="docs/assets/2025-12-14-P6-OR-Tools/Portrait_of_I.V.Klyun_(Klyunkov).jpg" alt="Portrait of I.V.Klyun (Klyunkov)">
+</div>
 
 <p align="center">
   <em>Kazimir Malevich. "Portrait of Ivan Vasilyevich Klyun (Improved portrait of Klyun (Builder)"</em>
